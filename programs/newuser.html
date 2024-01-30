@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>newuser</title>
+	</head>
+<body>
+<form method="post">
+	<table border="1">
+		<tr>
+			<td>Firstname</td>
+			<td>
+				<input type="text" name="first_name" placeholder=" Enter your first name" required />
+			</td>
+		</tr>
+		<tr>
+			<td>Last name</td>
+			<td>
+			<input type="text" name="last_name" placeholder=" Enter your last name" required />
+			</td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+			<input type="radio" name="btn_gender" value="male" />male
+			<input type="radio" name="btn_gender" value="female" />female 
+			</td>
+		</tr>
+		<tr>
+			<td>Marital status</td>
+			<td>
+			<input type="radio" name="btn_marital" value="single"/>single
+			<input type="radio" name="btn_marital" value="married"/>married
+			</td>
+		</tr>
+		<tr>
+			<td>contact</td>
+			<td>
+			<input type="text" name="txt_number" placeholder=" Enter your mobile number"  pattern="{10}"/>
+			</td>
+		</tr>	
+		<tr>
+			<td>Email</td>
+			<td>
+                        <input type="email" name="txt_email" placeholder=" Enter your email id"/>
+			</td>
+		</tr>	
+		<tr>
+                        <td>Password</td>
+			<td>
+			<input type="password" name="txt_password" placeholder="Password" pattern="{6,10}" />
+			</td>
+		<tr>
+		<tr>
+			<td>Confirm password</td>
+			<td>
+			<input type="password" name="txt_password" placeholder="re enter password" pattern="{6,10}"/>
+			</td>
+		</tr>
+
+   		<tr>
+		 	<td>Security question</td>
+			<td>
+				<select>
+					<option>--select--<option>
+					<option value="favclr">favourite color ?</option>
+					<option value="favfo">favourite food ?</option>
+				</select>
+			</td>
+
+		</tr>
+		<tr>
+			<td>Answer</td>
+			<td>
+			<input type="text" name="txt_name" placeholder="Enter your answer" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>Date Of Birth</td>
+			<td>
+			<input type="date" name="txt_dob" required />
+			</td>
+			
+		</tr>
+		<tr>
+       			<td>Adress</td>
+			<td>
+			<textarea name="txt_adress" rows="6" cols="20" required /></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>photo</td>
+			<td>
+			<input type="file" name="usr_photo"/>
+			</td>
+		</tr>
+		<tr>
+			<td>PinCode</td>
+			<td>
+			<input type="text" name="txt_pincode" placeholder="Enter your pincode" required />
+			</td>
+		</tr>
+			<tr>
+			<td colspan="2" align="center">
+			<input type="checkbox" name="checking" vlalue="accept" required/>Accept terms and conditions
+			</td>
+			</tr>
+		<tr>
+			<td colspan="2" align="center">
+			<input type="submit" name="btn_submit" value="submit"/>
+			<input type="reset" name="btn_reset" value="cancel"/>
+			</td>
+		</tr>
+
+		
+	</table>
+</form>
+</body>
+</html>

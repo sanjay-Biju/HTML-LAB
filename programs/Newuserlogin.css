@@ -1,0 +1,187 @@
+.main-container{
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.box{
+    width: 340px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.sub-box{
+    width: 320px;
+    height: 390px;
+    
+    background-color:white; 
+}
+.sub-container1{
+    width: 320px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white; 
+}
+.sub-container2{
+    width: 320px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.sub-container6{
+    display: flex;
+    background-color: white; 
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.email-image{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+}
+.email-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    
+}
+
+.sub-container10{
+   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+    
+   
+}
+.password-image{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+}
+.password-value{
+    width: 300px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    border-radius: 13px;
+    
+}
+
+.sub-container12{
+   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;                       
+    background-color: white;
+}
+.sub-container12-1{
+    width: 290px;
+    height: 35px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    border-radius: 12px;                    
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.google-photo{
+    width: 35px;
+    height: 35px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 50%s;       
+    background-color: white;
+}
+.signin-google{
+    width: 205px;
+    height: 35px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub-container16{
+    width: 320px;
+    height: 35px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;                       
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.second-container{
+
+}
+.first-container{
+    height: 100px;
+}
+.input-field{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-weight: 500;
+    transition: 0.10s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+
+}
+.input-field:hover{
+    transform:scale(1.1);
+
+}
+
+.btn{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(37, 85, 191);
+    border: none;
+    color: white;
+    transition: 0.10s;
+}
+.btn:hover{
+    background-color: rgb(123, 165, 228);
+    color: black;
+    /*transform: scale(1.1);*/
+}
+
